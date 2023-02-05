@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieMania</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/3bb78fc623.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./favourites.html" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="movie-wrapper">
+        <div class="movie-search">
+          <h2 class="title">Find Movies</h2>
+          <blockquote style="font-size: 24px">
+            “ May the Force be with you.” <br />
+            <cite style="font-size: 20px"> - Star Wars, 1977.</cite>
+          </blockquote>
+
+          <div class="movie-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an Movie Name"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>fvcv
+        </div>
+
+        <div class="movie-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="movie">
+            <!-- movie item -->
+            <!-- <div class = "movie-item">
+            <div class = "movie-img">
+              <img src = "./asseets/movie.jpg" alt = "food">
+              <i class="fa-sharp fa-solid fa-heart"></i>
+            </div>
+            <div class = "movie-name">
+              <h3>Potato Chips</h3>
+                <a href = "#" class = "movie-btn">Add Favorites</a>
+                <a href = "#" class = "add-btn">Add to Favourites</a>
+
+            </div>
+          </div> -->
+            <!-- end of movie item -->
+          </div>
+        </div>
+        
+
+        <div class="movie-details">
+          <button
+            type="button"
+            class="btn movie-close-btn"
+            id="movie-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div class="movie-details-content">
+            <!-- <h2 class="movie-title">Meal Name Here</h2>
+           -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
